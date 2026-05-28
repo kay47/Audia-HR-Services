@@ -48,8 +48,8 @@ export default function Footer() {
         <div>
           <h4 style={{ fontWeight: 600, fontSize: 14, marginBottom: 16 }}>Contact</h4>
           {[
-            { Icon: MapPin, text: "200 Madison Ave, Suite 1800, New York, NY" },
-            { Icon: Phone, text: "+1 (555) 010-2030" },
+            { Icon: MapPin, text: "Adjiringanor Estate-NTHC, Tema" },
+            { Icon: Phone, text: "020 200 6600 / 020 774 6000" },
             { Icon: Mail, text: "hello@audiahr.com" },
           ].map(({ Icon, text }, i) => (
             <div key={i} style={{ display: "flex", gap: 10, marginBottom: 12, alignItems: "flex-start" }}>

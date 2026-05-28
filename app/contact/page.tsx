@@ -59,8 +59,8 @@ export default function ContactPage() {
             <div className="card" style={{ marginBottom: 20 }}>
               <h3 style={{ fontWeight: 700, fontSize: 16, color: "var(--navy)", marginBottom: 20 }}>Reach us directly</h3>
               {[
-                { Icon: MapPin, text: "200 Madison Ave, Suite 1800, New York, NY 10016" },
-                { Icon: Phone, text: "+1 (555) 010-2030" },
+                { Icon: MapPin, text: "Adjiringanor Estate-NTHC, Tema" },
+                { Icon: Phone, text: "020 200 6600 / 020 774 6000" },
                 { Icon: Mail, text: "hello@audiahr.com" },
               ].map(({ Icon, text }, i) => (
                 <div key={i} style={{ display: "flex", gap: 12, marginBottom: 16, alignItems: "flex-start" }}>
