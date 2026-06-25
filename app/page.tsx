@@ -39,8 +39,8 @@ export default function HomePage() {
               From talent and leadership to strategy and compliance — AUDIA HR Services is your end-to-end people partner, built for modern teams.
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap", marginBottom: 28 }}>
-              <Link href="/contact" className="btn-teal" style={{ fontSize: 14 }}>Get Started <ArrowRight size={15} /></Link>
-              <Link href="/services" style={{ background: "transparent", color: "#fff", border: "1.5px solid rgba(255,255,255,0.25)", borderRadius: 8, padding: "10px 22px", fontSize: 14, fontWeight: 600, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 6 }}>Explore Services</Link>
+              <Link href="/services" className="btn-teal" style={{ fontSize: 14 }}>Explore Services <ArrowRight size={15} /></Link>
+              <Link href="/contact" style={{ background: "transparent", color: "#fff", border: "1.5px solid rgba(255,255,255,0.25)", borderRadius: 8, padding: "10px 22px", fontSize: 14, fontWeight: 600, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 6 }}>Get Started</Link>
             </div>
             <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
               {["No long-term contracts", "Dedicated HR partner", "30-day onboarding"].map(item => (

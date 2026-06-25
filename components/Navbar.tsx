@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {/* Mobile nav */}
       {open && (
-        <div style={{ background: "#fff", borderTop: "1px solid var(--border)", padding: "16px 24px 20px" }} className="show-mobile">
+        <div style={{ background: "#fff", borderTop: "1px solid var(--border)", padding: "16px 24px 20px", display: "flex", flexDirection: "column", alignItems: "stretch", gap: 0 }} className="show-mobile">
           {navLinks.map(link => (
             <Link key={link.href} href={link.href} onClick={() => setOpen(false)} style={{
               display: "block", padding: "10px 0", fontSize: 15, fontWeight: 500,
